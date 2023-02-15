@@ -1,0 +1,29 @@
+.ColorEntryBox {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    row-gap: 10px;
+}
+
+.ColorEntryBox > label {
+    font-family: "Courier New", sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.ColorEntryBox > input {
+    border: 1px solid white;
+    border-radius: 5px;
+
+    padding: 5px;
+
+    /* Remove the up and down slider */
+    appearance: textfield;
+
+    font-family: "Courier New", sans-serif;
+}
+
+.ColorEntryBox > input:focus {
+    outline: none;
+}
